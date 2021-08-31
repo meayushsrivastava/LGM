@@ -1,0 +1,53 @@
+
+.users_data {
+  background-color: white;
+}
+.navbar {
+  background-color: slategrey;
+  padding:10px;
+  color: white;
+  }
+  
+ .navitems h2 {
+  margin-left: 10%;
+  font-size: 30px;
+  display: inline-block;
+  } 
+  .btn {
+    float: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(blue, white);
+  }
+  .main {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .pic {
+    border-radius: 50%;
+  }
+  
+  .user_profile {
+  
+    border-radius:10%;
+    background-image: linear-gradient(darkblue, skyblue);
+    margin:50px;
+    padding:20px;
+    text-align: center;
+    transition: transform .2s; 
+    cursor: pointer;
+  }
+  
+  .user_profile:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(blue, skyblue);
+  }
